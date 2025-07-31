@@ -3,9 +3,9 @@ const axios = require("axios");
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
-const token = "BOT_TOKEN";
-const admin = "USERID";
-const DATABASE_URL = "DATABASE_URL"; 
+const token = "7802153967:AAEIb067DFs8u40H1HhIGTZswPRUnYadXq4";
+const admin = "7801025601";
+const DATABASE_URL = "https://polimage-56d11-default-rtdb.firebaseio.com"; 
 const WEBHOOK_URL = "VERCEL_URL";
 
 const bot = new TelegramBot(token, { webHook: { port: false } });
@@ -118,11 +118,11 @@ app.post("/", async (req, res) => {
       const caption =
         "*👆 Here Is Your Generated Image\n\n💭 Your Prompt:*\n`" +
         msg.text +
-        "`\n\n*🧑‍💻 Created By:* [BOTNAME](https://telegram.dog/BOT_USERNAME)";
+        "`\n\n*🧑‍💻 Created By:* [Polimage](https://telegram.dog/polimagebot)";
       const keyboard = {
         reply_markup: {
           inline_keyboard: [
-            [{ text: "🧑‍💻 Developer", url: "https://telegram.dog/DEVELOPER" }]
+            [{ text: "🧑‍💻 Developer", url: "https://telegram.dog/unknownzop" }]
           ]
         },
         parse_mode: "Markdown",
