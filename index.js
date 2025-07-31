@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 const token = "7802153967:AAEIb067DFs8u40H1HhIGTZswPRUnYadXq4";
 const admin = "7801025601";
 const DATABASE_URL = "https://polimage-56d11-default-rtdb.firebaseio.com"; 
-const WEBHOOK_URL = "VERCEL_URL";
+const WEBHOOK_URL = "https://image-generator-bot-five.vercel.app/";
 
 const bot = new TelegramBot(token, { webHook: { port: false } });
 const app = express();
