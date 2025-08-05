@@ -3,7 +3,7 @@ const axios = require("axios");
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 
-const token = "7802153967:AAEIb067DFs8u40H1HhIGTZswPRUnYadXq4";
+const token = "7802153967:AAEHrLJ6XUHE7Z5nzMf0X0zdX8GKKxQzZk0";
 const admin = "7801025601";
 const DATABASE_URL = "https://polimage-56d11-default-rtdb.firebaseio.com"; 
 const WEBHOOK_URL = "https://image-generator-bot-five.vercel.app/";
